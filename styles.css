@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* utility classes*/
+
+.btn-primary {
+    background-color: #1db954;
+    color: #fff;
+
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+
+    padding: 15px 60px;
+    border: none;
+    border-radius: 30px;
+
+    
+
+}
+
+
+#navbar {
+  display: flex;
+  justify-content: center;
+
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar-container {
+  width: 60%;
+  display: flex;
+
+  padding: 20px 0;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-container ul {
+  display: flex;
+
+  list-style: none;
+
+  font-weight: bold;
+}
+
+.navbar-container ul li {
+  padding: 0 20px;
+}
+
+.navbar-container ul li:nth-child(3) {
+  border-right: 1px solid white;
+}
+
+.logo {
+  width: auto;
+  height: 40px;
+}
+
+/* showcase */
+
+#showcase {
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+  background: url('./img/showcase.webp') center center/cover;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: color;
+}
+
+.showcase-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.showcase-container h1 {
+    font-size: 5rem;
+
+}
+
+.showcase-container p {
+    margin: 15px 0;
+    font-size:1.1rem;
+
+}
+

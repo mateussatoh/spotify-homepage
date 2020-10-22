@@ -1,0 +1,85 @@
+#footer {
+  background: black;
+  color: white;
+
+  padding: 80px 0;
+}
+
+.footer-content {
+  display: flex;
+  width: 85%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.footer-content .footer-menu {
+  margin: 0 40px;
+  list-style: none;
+}
+
+.footer-menu-item {
+  margin: 25px 0;
+  font-size: 0.9rem;
+  transition: all 200ms ease;
+}
+
+.footer-content .footer-menu p {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #919496;
+  font-size: 0.8rem;
+}
+
+.socials {
+  display: flex;
+}
+
+.socials i {
+  margin: 0;
+  padding: 0 20px;
+  font-size: 1.7rem;
+  transition: all 200ms ease;
+  height: 50px;
+}
+
+/* footer about */
+
+.footer-about {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: flex-end;
+
+  width: 85%;
+  margin: auto;
+
+  font-weight: 300;
+  color: #919496;
+  font-size: 0.75rem;
+
+  padding-top: 60px;
+}
+
+.footer-about .about-items {
+  display: flex;
+  list-style: none;
+}
+
+.about-items .item {
+  margin: 0 10px;
+  transition: all 200ms ease;
+}
+
+.footer-about .rights .country {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.footer-about .rights .country .flag {
+  height: 20px;
+  width: auto;
+  display: inline-block;
+  margin-left: 10px;
+}

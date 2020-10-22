@@ -1,0 +1,23 @@
+.navbar-container ul li:hover {
+    color: #1db954;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background: #1ed768;
+    cursor: pointer;
+  }
+  
+  .footer-menu-item:hover {
+      color: #1db954;
+      cursor: pointer;
+  }
+  
+  .socials i:hover {
+      color: #1ed768;
+      cursor: pointer;
+  }
+  .about-items .item:hover {
+      color: white;
+      cursor: pointer;
+  }
